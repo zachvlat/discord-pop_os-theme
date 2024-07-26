@@ -24,6 +24,10 @@
   background-color: var(--background-tertiary);
 }
 
+.circleIconButton_db6521 {
+    color: var(--accent-color);
+}
+
 /* Text Colors */
 .title-29uC1r, .markup-2BOw-j, .messageContent-2qWWxC {
   color: var(--text-primary);
