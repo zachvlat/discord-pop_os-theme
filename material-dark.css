@@ -1,0 +1,57 @@
+/* Root colors */
+:root {
+  --background-primary: #121212;
+  --background-secondary: #1F1F1F;
+  --background-tertiary: #292929;
+  --accent-color: #6200EE; /* Primary accent color */
+  --accent-color-light: #BB86FC; /* Lighter accent color */
+  --text-primary: #FFFFFF;
+  --text-secondary: #B0B0B0;
+  --text-accent: #03DAC6; /* Accent text color */
+}
+
+/* Backgrounds */
+.container-3RCQyg {
+  background-color: var(--background-primary);
+}
+
+.container-3RCQyg .content-3YMskv {
+  background-color: var(--background-secondary);
+  border-radius: 8px;
+}
+
+.container-3RCQyg .scroller-2FKFPG {
+  background-color: var(--background-tertiary);
+}
+
+/* Text Colors */
+.title-29uC1r, .markup-2BOw-j, .messageContent-2qWWxC {
+  color: var(--text-primary);
+}
+
+.secondaryText-1cD5KN, .markup-2BOw-j a {
+  color: var(--text-secondary);
+}
+
+a {
+  color: var(--text-accent);
+}
+
+/* Accent Elements */
+.button-3AYNKb, .button-3AYNKb:hover {
+  background-color: var(--accent-color);
+  color: var(--text-primary);
+}
+
+.unread-3l-ezG, .headerText-3Uvj1Y {
+  color: var(--accent-color-light);
+}
+
+/* Rounded Corners and Shadows */
+.cardPrimary-2eosC-,
+.button-3AYNKb,
+.tabBar-ZWz5Im,
+.tabBar-ZWz5Im .tabBarItem-x91Gz- {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
